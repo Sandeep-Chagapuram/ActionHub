@@ -1,9 +1,9 @@
-# Task-Manager
-Task Manager with Audit Logging: A scalable full-stack application featuring CRUD operations, server-side pagination, dynamic search, and real-time audit logging. Implements input validation, XSS protection, data sanitization, and Basic Auth, built with Node.js, Express, MongoDB, and React.
+# ActionHub
+A scalable full-stack action management platform featuring CRUD operations, server-side pagination, dynamic search, and real-time audit logging. Implements input validation, XSS protection, data sanitization, and Basic Authentication. Built with Node.js, Express, MongoDB, and React.
 ```
-task-manager/
+ActionHub/
 ├── backend/
-│ ├── models/ # Task and AuditLog schemas
+│ ├── models/ # Action and AuditLog schemas
 │ ├── routes/ # API routes
 │ ├── controllers/ # Business logic
 │ ├── middleware/ # Auth middleware
@@ -35,8 +35,8 @@ task-manager/
 <h3>Clone the Repository</h3>
 <pre>
 <code>
-git clone https://github.com/Sandeep-Chagapuram/Task-Manager.git
-cd Task-Manager
+git clone https://github.com/Sandeep-Chagapuram/ActionHub.git
+cd ActionHub
 </code>
 </pre>
 <hr />
@@ -52,7 +52,7 @@ cd backend
 <pre>
 <code>
 #the mongodb connection string
-MONGODB_URI=mongodb://localhost:27017/taskmanager
+MONGODB_URI=mongodb://localhost:27017/ActionHub
 PORT=5001
 </code>
 </pre>
@@ -81,5 +81,5 @@ npm run dev
 <hr />
 
 <h3>🎉 You're Ready!</h3>
-<p>Open the frontend URL in your browser to access the full-stack Task Manager application.</p>
+
 
