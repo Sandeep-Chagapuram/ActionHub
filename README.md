@@ -1,5 +1,5 @@
 # ActionHub
-A scalable full-stack action management platform featuring CRUD operations, server-side pagination, dynamic search, and real-time audit logging. Implements input validation, XSS protection, data sanitization, and Basic Authentication. Built with Node.js, Express, MongoDB, and React.
+A scalable full-stack action management system to support enterprise planning and operational tracking, with audit logging to capture and document complete action lifecycles for accountability and traceability. Implemented server-side pagination, dynamic search, and real-time audit logging. Implements input validation, XSS protection, data sanitization, and Basic Authentication. Built with Node.js, Express, MongoDB, and React.
 ```
 ActionHub/
 ├── backend/
